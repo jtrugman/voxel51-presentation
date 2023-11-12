@@ -4,6 +4,8 @@
   "private": true,
   "dependencies": {
     "axios": "^0.18.1",
+    "axios-mock-adapter": "^1.22.0",
+    "puppeteer": "^21.4.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.0",
@@ -29,5 +31,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/react-hooks": "^8.0.1"
   }
 }
